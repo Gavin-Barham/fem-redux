@@ -1,0 +1,16 @@
+{
+  "name": "fem-redux",
+  "version": "1.0.0",
+  "description": "front end masters redux course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "author": "Gavin Barham",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.2.1"
+  }
+}
