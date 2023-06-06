@@ -16,7 +16,7 @@ const stateLogEnhancer = (createStore) => (reducer, initialState, enhancer) => {
     return createStore(stateLogReducer, initialState, enhancer);
 };
 const monitorEnhancer = (createStore) => (reducer, initialState, enhancer) => {
-    const stateLogReducer = (state = initialState, action) => {
+    const monitorReducer = (state = initialState, action) => {
         console.log(state);
         const newState = reducer(state, action);
         console.log(state);
